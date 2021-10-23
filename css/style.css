@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.header div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header div:first-child {
+    width: 600px;
+}
+
+.header div:nth-child(2){
+    width: 150px; 
+}
+
+.logo {
+    position: relative;
+    bottom: 3px;
+    width: 125px;
+    height: 32px;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    width: 400px;
+    list-style: none;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #808080;
+}
+
+.carrito {
+    width: 25px;
+}
+
+.perfil {
+    width: 50px;
+    border-radius: 50px;
+}
