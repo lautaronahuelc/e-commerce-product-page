@@ -31,8 +31,6 @@ body {
 .logo {
     position: relative;
     bottom: 3px;
-    width: 125px;
-    height: 32px;
 }
 
 .nav ul {
@@ -52,7 +50,7 @@ body {
     width: 25px;
 }
 
-.perfil {
+.avatar {
     width: 50px;
     border-radius: 50px;
 }
