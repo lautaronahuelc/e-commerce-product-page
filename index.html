@@ -12,13 +12,15 @@
     <script src="https://kit.fontawesome.com/b5ae0340e0.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="only screen and (max-width:768px)" href="css/medium-layout.css">
     <title>Sneakers</title>
 </head>
+
 <body>
     <header class="header">
-        <div>
+        <div class="header__container-1">
             <img class="logo" src="assets/img/logo.svg" alt="Logo de la página">
-            <nav class="nav">
+            <nav class="menu">
                 <ul>
                     <li><a href="#">Collections</a></li>
                     <li><a href="#">Men</a></li>
@@ -28,40 +30,50 @@
                 </ul>
             </nav>
         </div>
-        <div>
+        <div class="header__container-2">
             <i>
                 <img class="carrito" src="assets/img/icon-cart.svg" alt="Icono de carrito de compras">
             </i>
             <img class="avatar" src="assets/img/image-avatar.png" alt="Imagen de perfil">
+        </div>
+        <div id="icon-menu">
+            <i class="fas fa-bars"></i>
         </div>
     </header>
 
     <main>
         <section class="section-1">
                 <img class="imagen-principal" src="assets/img/image-product-1.jpg" alt="Imagen del producto principal">
-                <img class="producto-1" src="assets/img/image-product-1-thumbnail.jpg" alt="Imagen del producto 1 en segundo plano">
+                <img class="producto-1 selected" src="assets/img/image-product-1-thumbnail.jpg" alt="Imagen del producto 1 en segundo plano">
                 <img class="producto-2" src="assets/img/image-product-2-thumbnail.jpg" alt="Imagen del producto 2 en segundo plano">
                 <img class="producto-3" src="assets/img/image-product-3-thumbnail.jpg" alt="Imagen del producto 3 en segundo plano">
                 <img class="producto-4" src="assets/img/image-product-4-thumbnail.jpg" alt="Imagen del producto 4 en segundo plano">
+                <button class="button-previous">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="button-next">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
         </section>
         <section class="section-2">
             <span class="company">SNEAKER COMPANY</span>
             <h1>Fall Limited Edition Sneakers</h1>
             <p class="descripcion">These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
-            <p class="precio-container">
+            <p class="precios">
                 <span class="precio-actual">$125.00</span>
                 <span class="descuento">50%</span>
             </p>
             <p><span class="precio-anterior">$250.00</span></p>
             <div class="botones">
-                <div class="cantidad">
-                    <button><i class="fas fa-minus"></i></button>
+                <div class="boton-cantidad">
+                    <i class="fas fa-minus"></i>
                     <small>0</small>
-                    <button><i class="fas fa-plus"></i></button>
+                    <i class="fas fa-plus"></i>
                 </div>
-                <button class="agregar">Add to cart</button>
+                <button class="boton-agregar">Add to cart</button>
             </div>    
         </section>
     </main>
+    <script src="js/app.js"></script>
 </body>
 </html>
