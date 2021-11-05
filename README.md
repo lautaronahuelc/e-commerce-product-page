@@ -1,3 +1,4 @@
 # E-commerce product page
 
-Desafío propuesto por Tadeo para crear con HTML y CSS un e-commerce
+Interfaz diseñada que muestra la información e imágenes de un producto en venta en un e-commerce.
+
