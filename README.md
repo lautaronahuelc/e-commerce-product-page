@@ -9,5 +9,5 @@ Corré a verla para entender mejor de qué va... 🏃‍♀️ 🏃
 Presentación del producto final 👇
 
 ![Presentación del producto](https://github.com/lautaronahuelc/e-commerce-product-page/blob/master/resultado-final.jpg)
-
+***
 [VER MAS PROYECTOS](https://github.com/lautaronahuelc?tab=repositories) 👈
