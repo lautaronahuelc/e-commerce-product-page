@@ -6,6 +6,8 @@ Hice una [publicación en LinkedIn](https://www.linkedin.com/feed/update/urn:li:
 
 Corré a verla para entender mejor de qué va... 🏃‍♀️ 🏃
 
+Ahora sí... [Presione aquí para dirigirse al proyecto](https://e-commerce-proyect.netlify.app/)
+
 Presentación del producto final 👇
 
 ![Presentación del producto](https://github.com/lautaronahuelc/e-commerce-product-page/blob/master/resultado-final.jpg)
